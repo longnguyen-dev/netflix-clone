@@ -29,7 +29,7 @@ const Featured = ({ type }) => {
         </div>
       )}
       <img
-        src="https://images.hindustantimes.com/img/2022/10/06/550x309/maja-ma-review_1665039850921_1665039851085_1665039851085.jpeg"
+        src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/07/THE-MATRIX-MOVIES-IN-ORDER.jpg"
         alt="img-background"
       />
       <div className={classes.info}>
