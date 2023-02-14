@@ -20,7 +20,7 @@ const ListItem = ({ index }) => {
       style={{ left: isHovered && index * 225 - 50 + index * 2.5 }}
     >
       <img
-        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/family-movies-on-netflix-benji-1651076104.jpeg?crop=0.566xw:1.00xh;0.266xw,0&resize=640:*"
+        src="https://mobimg.b-cdn.net/v3/fetch/38/3808550f5d55a3dcf089300d2d007705.jpeg"
         alt=""
       />
       {isHovered && (

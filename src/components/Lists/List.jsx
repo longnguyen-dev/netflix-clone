@@ -18,12 +18,12 @@ const List = () => {
 
     if (direction === "left" && slideNum > 0) {
       setSlideNum(slideNum - 1);
-      listRef.current.style.transform = `translateX(${255 + distance}px)`;
+      listRef.current.style.transform = `translateX(${225 + distance}px)`;
     }
 
     if (direction === "right" && slideNum < 6) {
       setSlideNum(slideNum + 1);
-      listRef.current.style.transform = `translateX(${-255 + distance}px)`;
+      listRef.current.style.transform = `translateX(${-225 + distance}px)`;
     }
   };
 
