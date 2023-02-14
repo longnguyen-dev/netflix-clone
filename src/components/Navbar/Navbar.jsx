@@ -2,8 +2,6 @@ import { ArrowDropDown, Notifications, Search } from "@mui/icons-material";
 import { useState } from "react";
 import classes from "./Navbar.module.css";
 
-console.log(classes);
-
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -11,9 +9,6 @@ const Navbar = () => {
     setIsScrolled(window.pageYOffset === 0 ? false : true);
     return () => (window.onscroll = null);
   };
-
-  // const navbarClass = isScrolled ? `narbar-scrolled` : `navbar`;
-  // console.log(navbarClass);
 
   return (
     <div
