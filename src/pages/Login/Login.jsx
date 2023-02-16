@@ -17,7 +17,7 @@ const Login = () => {
           <input type="password" placeholder="Password"></input>
           <button className={classes.buttonInput}>Sign in</button>
           <div className={classes.options}>
-            <div>
+            <div className={classes.input}>
               <input type="checkbox"></input>
               <span>Remember</span>
             </div>

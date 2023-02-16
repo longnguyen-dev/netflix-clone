@@ -79,11 +79,21 @@
 
 .inputForm .options {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   color: #b3b3b3;
   font-size: 13px;
   margin-bottom: 55px;
+}
+.inputForm .options .input {
+  display: flex;
+  align-items: center;
+}
+
+.inputForm .options .input input {
+  margin: auto 5px auto 0;
+  height: 16px;
+  width: 16px;
 }
 
 .inputForm .options > span {
@@ -104,7 +114,9 @@
 .footer .desciption {
   margin-top: 12px;
 }
-
+.footer .signup {
+  color: #737373;
+}
 .footer .signup span {
   color: white;
   margin-left: 5px;
@@ -117,6 +129,7 @@
 
 .footer .desciption {
   font-size: 13px;
+  line-height: 1.2;
 }
 
 .footer .desciption span {
@@ -125,4 +138,5 @@
 
 .footer .desciption span:hover {
   text-decoration-line: underline;
+  cursor: pointer;
 }
