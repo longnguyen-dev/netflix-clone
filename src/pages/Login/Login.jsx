@@ -3,26 +3,36 @@ import classes from "./Login.module.css";
 const Login = () => {
   return (
     <div className={classes.login}>
-      <div className={classes.wrapper}>
+      <div className={classes.top}>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
-          alt=""
+          className={classes.logo}
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/800px-Logonetflix.png?20170904093427"
+          alt="netflix-logo"
         />
       </div>
       <div className={classes.container}>
-        <h1>Sign in</h1>
-        <form action="">
-          <input type="email" placeholder="Enter your email!" />
-          <input type="password" placeholder="Password" />
-          <button>Sign In</button>
-          <p>
-            New to Netflix <span>Sign up now</span>
-          </p>
-          <p>
-            This page is protected by Google reCAPTCHA to ensure you're not a
-            bot.<span>Learn more</span>
-          </p>
+        <form className={classes.inputForm}>
+          <h1>Sign In</h1>
+          <input type="text" placeholder="Email or phone number"></input>
+          <input type="password" placeholder="Password"></input>
+          <button className={classes.buttonInput}>Sign in</button>
+          <div className={classes.options}>
+            <div>
+              <input type="checkbox"></input>
+              <span>Remember</span>
+            </div>
+            <span>Need help?</span>
+          </div>
         </form>
+        <footer className={classes.footer}>
+          <p className={classes.signup}>
+            New to Netflix? <span>Sign up now</span>
+          </p>
+          <p className={classes.desciption}>
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot.<span> Learn more</span>
+          </p>
+        </footer>
       </div>
     </div>
   );
